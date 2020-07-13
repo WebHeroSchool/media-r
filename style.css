@@ -2,6 +2,10 @@
   .main__title {
     font-size: 5px;
   }
+  .nav {
+  	visibility: hidden;
+  	background: url(//img.icons8.com/cute-clipart/64/000000/menu.png);
+  }
 }
 @media(min-width: 481px) {
   .main__title {
