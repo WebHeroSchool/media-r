@@ -1,0 +1,57 @@
+@media(min-width: 320px) {
+  .main__title {
+    font-size: 10px;
+  }
+  .nav {
+  	 visibility: hidden;
+  }
+  .nav-mobule {
+    width: 24px;
+    height: 24px;
+  	 background: url(https://img.icons8.com/android/24/000000/menu.png);
+  	 margin-bottom: 10px;
+  }
+  .nav-link {
+  	visibility: hidden;
+  }
+  .nav-link a {
+  	display: block;
+  }
+}
+@media(min-width: 481px) {
+  .main__title {
+    font-size: 15px;
+  }
+  .nav {
+  	 visibility: visible;
+  	 display: flex;
+    justify-content: flex-start;
+    background: #008aff;
+  }
+  .nav-mobule {
+  	 visibility: hidden;
+  }
+  .nav-link {
+  	 visibility: hidden;
+  }
+}
+@media(min-width: 641px) {
+  .main__title {
+    font-size: 30px;
+  }
+}
+@media(min-width: 961px) {
+  .main__title {
+    font-size: 35px;
+  }
+}
+@media(min-width: 1025px) {
+  .main__title {
+    font-size: 45px;
+  }
+}
+@media(min-width: 1281px) {
+  .main__title {
+    font-size: 50px;
+  }
+}
