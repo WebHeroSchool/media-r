@@ -1,15 +1,28 @@
 @media(min-width: 320px) {
   .main__title {
-    font-size: 5px;
+    font-size: 10px;
   }
   .nav {
-  	visibility: hidden;
-  	background: url(//img.icons8.com/cute-clipart/64/000000/menu.png);
+  	 visibility: hidden;
+  }
+  .nav-mobule {
+    width: 24px;
+    height: 24px;
+  	 background: url(https://img.icons8.com/android/24/000000/menu.png);
   }
 }
 @media(min-width: 481px) {
   .main__title {
     font-size: 15px;
+  }
+  .nav {
+  	 visibility: visible;
+  	 display: flex;
+    justify-content: flex-start;
+    background: #008aff;
+  }
+  .nav-mobule {
+  	 visibility: hidden;
   }
 }
 @media(min-width: 641px) {
